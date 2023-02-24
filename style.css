@@ -5,29 +5,35 @@
   margin: 0;
   padding: 0;
 }
+/* Setting the height of the html and body to 100% of the viewport. */
 html,
 body {
   height: 100%;
 }
+/* Setting the background color of the body to a orangish color. */
 body {
   background: rgb(255, 132, 100);
 }
+/* Centering the content of the page. */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
+/* Styling the body of the page. */
 #body {
   background-color: rgb(13, 149, 227);
   border-radius: 10px;
   padding: 30px;
   text-align: center;
 }
+/* Styling the display of the counter. */
 #display {
   margin-bottom: 20px;
   font-size: 50px;
 }
+/* Styling the buttons. */
 #button button {
   color: red;
   border-radius: 60px;
@@ -39,6 +45,7 @@ body {
   cursor: pointer;
   transition: 1s;
 }
+/* Styling the buttons. */
 #increment {
   background-color: rgb(194, 241, 76);
 }
@@ -60,8 +67,7 @@ body {
   background-color: rgb(242, 61, 5);
   color: rgb(9, 17, 24);
 }
-/* toggle styling */
-
+/* Styling the toggle button. */
 i {
   font-size: 70px;
   cursor: pointer;

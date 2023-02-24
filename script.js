@@ -1,9 +1,12 @@
 // script for counter logic
 
+/* Selecting the element with the id of display. */
 let display = document.querySelector("#display");
 
+/* Declaring a variable called value and assigning it a value of 0. */
 let value = 0;
 
+/* A function that is being called when the button is clicked. */
 document.querySelector("#decrement").addEventListener("click", () => {
   value--;
   display.innerHTML = value;
@@ -24,6 +27,7 @@ document.querySelector("#increment").addEventListener("click", () => {
 let toggle = document.querySelector("#toggle");
 let body = document.querySelector("body");
 
+/* Toggling the background color and the text color. */
 toggle.addEventListener("click", function () {
   this.classList.toggle("bi-moon");
   if (this.classList.toggle("bi-brightness-high-fill")) {
