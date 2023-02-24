@@ -21,10 +21,12 @@ document.querySelector("#increment").addEventListener("click", () => {
   value++;
   display.innerHTML = value;
 });
-/* Listening for a keydown event on the increment button. */
-document.querySelector("#increment").addEventListener("keydown", false, () => {
-  value++;
-  display.innerHTML = value;
+/* Listening for a keypress event on the increment button. */
+document.querySelector("#increment").addEventListener("keypress", (event) => {
+  if (event.keyCode === 13) {
+    value++;
+    display.innerHTML = value;
+  }
 });
 
 // script for the toggling
