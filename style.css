@@ -1,0 +1,62 @@
+/* to reset everything */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+    background: rgb(255, 132, 100);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#body{
+    background-color: rgb(13, 149, 227);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+#display{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+#button button{
+    color: red;
+    border-radius: 60px;
+    padding: 20px 30px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+#increment{
+    background-color: rgb(194, 241, 76);
+}
+#increment:hover{
+    background-color: rgb(250, 134, 11);
+    color: aliceblue;
+}
+#decrement{
+    background-color: rgb(194, 241, 76);
+}
+#decrement:hover{
+    background-color: rgb(250, 134, 11);
+    color: aliceblue;
+}
+#reset{
+    background-color: rgb(194, 241, 76);
+}
+#reset:hover{
+    background-color: rgb(242, 61, 5);
+    color: rgb(9, 17, 24);
+}
