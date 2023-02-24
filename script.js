@@ -21,6 +21,11 @@ document.querySelector("#increment").addEventListener("click", () => {
   value++;
   display.innerHTML = value;
 });
+/* Listening for a keydown event on the increment button. */
+document.querySelector("#increment").addEventListener("keydown", false, () => {
+  value++;
+  display.innerHTML = value;
+});
 
 // script for the toggling
 
